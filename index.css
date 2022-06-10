@@ -1,0 +1,53 @@
+@font-face{
+ font-family: "digital";
+ src: url(fonts/Cursed.ttf);
+ font-style: normal;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+}
+
+.home-score, .guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: "digital";
+    border-radius: 15%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+}
+
+#home-score-btn-1, 
+#home-score-btn-2, 
+#home-score-btn-3,
+#guest-score-btn-1, 
+#guest-score-btn-2,
+#guest-score-btn-3{
+    color: whitesmoke;
+    font-family: 'digital';
+    border: 1px solid #9AABD8;
+    border-radius: 20%;
+    padding: 7px;
+    margin: 1px;
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+}
+
+h1{
+    color: white;
+}
